@@ -188,6 +188,7 @@ with:
   node-version: 20
 ```
 
+
 If the runner is not able to access github.com, any Nodejs versions requested during a workflow run must come from the runner's tool cache. See "[Setting up the tool cache on self-hosted runners without internet access](https://docs.github.com/en/enterprise-server@3.2/admin/github-actions/managing-access-to-actions-from-githubcom/setting-up-the-tool-cache-on-self-hosted-runners-without-internet-access)" for more information.
 
 ## Advanced usage
