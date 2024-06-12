@@ -117,7 +117,7 @@ describe('cache-restore', () => {
 
   describe('Restore dependencies', () => {
     it.each([
-      ['yarn', '2.1.2', yarnFileHash],
+      ['yarn', '2.1.1', yarnFileHash],
       ['yarn', '1.2.3', yarnFileHash],
       ['npm', '', npmFileHash],
       ['pnpm', '', pnpmFileHash]
